@@ -13,8 +13,11 @@ if(pinNumber==='12345'){
     const newBlance=blanceNumber-cashNumber
     // update the ui
     document.getElementById('current-ammount').innerText=newBlance
+    
+    
 }
 else{
     alert('failed to cash out.please try again')
 }
+
 })
